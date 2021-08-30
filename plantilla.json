@@ -1,12 +1,20 @@
 {
-    "Version": "1.1",
-    "Message": "NUEVAS PROMOS ACTUALIZADOS
+    "Version": "1.2",
+    "Message": "NUEVAS PROMOS ACTUALIZADOS ZEUS
 🇨🇴 avantel sin redes 
 🇨🇴 movistar sin redes
 🇨🇴 claro con redes
 🇨🇴 virgin tiktok 
 🇨🇴 etb con redes :)",
     "Servers":[{
+        "Name": "🇱🇷 Nva york vip",
+        "SSHHost": "143.198.167.50",
+        "SSHPort": "22",
+        "DropBear": "80",
+        "SSLPort": "443",
+        "ProxyPort": "80"
+    },
+{
         "Name": "🇨🇴 bucaramanga vip",
         "SSHHost": "179.50.90.227",
         "SSHPort": "22",
