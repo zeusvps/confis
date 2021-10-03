@@ -1,5 +1,5 @@
 { 
-    "Version": "1.23", 
+    "Version": "1.25", 
     "Message": "NUEVAS PROMOS ACTUALIZADOS ZEUS 
     AGREGADO METODO PAYLOAD+SSL   activar solo para tigo 
 🇨🇴 TIGO pay+ssL 
@@ -10,7 +10,7 @@
 🇨🇴 etb con redes :)", 
     "Servers":[{ 
         "Name": "🇱🇷 Nva york vip", 
-        "SSHHost": "143.198.167.50", 
+        "SSHHost": "usa1.zeusvpn.tk", 
         "SSHPort": "22", 
         "DropBear": "80", 
         "SSLPort": "443", 
@@ -24,7 +24,7 @@
         "SSLPort": "443", 
         "ProxyPort": "80" 
     },{ 
-        "Name": "2🇺🇸tigo pay+ssl 🇨🇴", 
+        "Name": "🇺🇸tigo pay+ssl 🇨🇴", 
         "SSHHost": "bam-cell.nr-data.net", 
         "SSHPort": "22", 
         "DropBear": "80", 
@@ -41,16 +41,7 @@
 "ProxyHost": "", 
 "ProxyPort": "" 
 },{ 
-"Name": "🇨🇴 Avantel 2 ssl 🇨🇴", 
-"Direct": false, 
-"SSL": true,
-"Payws": "", 
-"Payload": "coronaviruscolombia.gov.co", 
-"CustomProxy": false, 
-"ProxyHost": "", 
-"ProxyPort": "" 
-},{ 
-"Name": "🇨🇴 Avantel 3 payload🇨🇴", 
+"Name": "🇨🇴 Avantel payload🇨🇴", 
 "SSL": false, 
 "Direct": true,
 "Payws": "", 
@@ -59,20 +50,11 @@
 "ProxyHost": "", 
 "ProxyPort": "" 
 },{ 
-"Name": "🇨🇴 Avantel 4 payload🇨🇴", 
-"SSL": false, 
-"Direct": true,
-"Payws": "",
-"Payload": "GET // HTTP/1.1 \nConnection: keep-alive\nHost:movil.colombiaaprende.edu.co [crlf][crlf]", 
-"CustomProxy": false, 
-"ProxyHost": "", 
-"ProxyPort": "" 
-},{ 
 "Name": "🇨🇴 Movistar sin saldo 🇨🇴", 
 "SSL": true, 
 "Direct": false, 
 "Payws": "",
-"Payload": "www.mutualser.org", 
+"Payload": "www.segurosbolivar.com", 
 "CustomProxy": false, 
 "ProxyHost": "", 
 "ProxyPort": "" 
@@ -94,12 +76,13 @@
 "CustomProxy": false, 
 "ProxyHost": "", 
 "ProxyPort": "" 
-},{ 
-      "Name": "🇨🇴Tigo SSL + PAYLOAD 🇨🇴", 
+},
+{ 
+      "Name": "🇺🇸Tigo SSL + PAYLOAD 2 🇨🇴", 
       "SSL": true, 
       "Direct": false, 
       "Payload": "bam-cell.nr-data.net", 
-      "Payws": "CONNECT wss://bam-cell.nr-data.net HTTP/1.1[crlf]Host: www.zeusvpn.tk[crlf]Connection: Keep-Alive[crlf]Proxy-Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf][crlf]", 
+      "Payws": "CONNECT wss://[host_port] HTTP/1.1[crlf]Host: usa1.zeusvpn.tk[crlf]Connection: Keep-Alive[crlf]Proxy-Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf][crlf]", 
       "CustomProxy": true, 
       "ProxyHost": "bam-cell.nr-data.net", 
       "ProxyPort": "443" 
@@ -116,6 +99,7 @@
 "Name": "🇨🇴 wom sin saldo🇨🇴", 
 "SSL": false, 
 "Direct": true, 
+"Payws": "",
 "Payload": "GET http://www.wom.co/ HTTP/1.1[crlf]Host: www.wom.co[crlf] Access-Control-Allow-Credentials: true, true[lf] Access-Control-Allow-Headers: X-Requested-With,Content-Type, X-Requested-With,Content-Type[lf] Access-Control-Allow-Methods: GET,PUT,OPTIONS,POST,DELETE, GET,PUT,OPTIONS,POST,DELETE[lf] Age: 8, 8[lf] Cache-Control: max-age=86400[lf] public[lf] Connection: keep-alive[lf] Content-Type: text/html; charset=UTF-8[crlf]Content-Length: 9999999999999[crlf]UseDNS: Yes[crlf]Vary: Accept-Encoding[crlf][raw][crlf][crlf][crlf]", 
 "CustomProxy": false, 
 "ProxyHost": "", 
