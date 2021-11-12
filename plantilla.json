@@ -1,5 +1,5 @@
 { 
-    "Version": "1.25", 
+    "Version": "1.30", 
     "Message": "NUEVAS PROMOS ACTUALIZADOS ZEUS 
     AGREGADO METODO PAYLOAD+SSL   activar solo para tigo 
 🇨🇴 TIGO pay+ssL 
@@ -18,14 +18,14 @@
     }, 
 { 
         "Name": "🇨🇴 Medellin vip", 
-        "SSHHost": "179.50.90.227", 
+        "SSHHost": "netfreezone.ml", 
         "SSHPort": "22", 
         "DropBear": "80", 
         "SSLPort": "443", 
         "ProxyPort": "80" 
     },{ 
         "Name": "🇺🇸tigo pay+ssl 🇨🇴", 
-        "SSHHost": "bam-cell.nr-data.net", 
+        "SSHHost": "www.mintic.gov.co", 
         "SSHPort": "22", 
         "DropBear": "80", 
         "SSLPort": "443", 
@@ -78,13 +78,23 @@
 "ProxyPort": "" 
 },
 { 
+      "Name": "🇨🇴Tigo SSL + PAYLOAD 1 🇨🇴", 
+      "SSL": true, 
+      "Direct": false, 
+      "Payload": "www.mintic.gov.co", 
+      "Payws": "UNLOCK h2://www.mintic.gov.co HTTP/1.1[crlf]Host: netfreezone.ml[crlf]Upgrade: websocket[crlf][crlf]", 
+      "CustomProxy": true, 
+      "ProxyHost": "www.mintic.gov.co", 
+      "ProxyPort": "443" 
+     },
+{ 
       "Name": "🇺🇸Tigo SSL + PAYLOAD 2 🇨🇴", 
       "SSL": true, 
       "Direct": false, 
-      "Payload": "bam-cell.nr-data.net", 
+      "Payload": "www.mintic.gov.co", 
       "Payws": "CONNECT wss://[host_port] HTTP/1.1[crlf]Host: usa1.zeusvpn.tk[crlf]Connection: Keep-Alive[crlf]Proxy-Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf][crlf]", 
       "CustomProxy": true, 
-      "ProxyHost": "bam-cell.nr-data.net", 
+      "ProxyHost": "www.mintic.gov.co", 
       "ProxyPort": "443" 
      },{ 
 "Name": "🇨🇴 claro redes🇨🇴", 
