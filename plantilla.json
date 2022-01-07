@@ -1,5 +1,5 @@
 { 
-    "Version": "1.30", 
+    "Version": "1.38", 
     "Message": "NUEVAS PROMOS ACTUALIZADOS ZEUS 
     AGREGADO METODO PAYLOAD+SSL   activar solo para tigo 
 🇨🇴 TIGO pay+ssL 
@@ -8,15 +8,7 @@
 🇨🇴 claro con redes 
 🇨🇴 virgin tiktok  
 🇨🇴 etb con redes :)", 
-    "Servers":[{ 
-        "Name": "🇱🇷 Nva york vip", 
-        "SSHHost": "usa1.zeusvpn.tk", 
-        "SSHPort": "22", 
-        "DropBear": "80", 
-        "SSLPort": "443", 
-        "ProxyPort": "80" 
-    }, 
-{ 
+    "Servers":[{
         "Name": "🇨🇴 Medellin vip", 
         "SSHHost": "netfreezone.ml", 
         "SSHPort": "22", 
@@ -24,8 +16,15 @@
         "SSLPort": "443", 
         "ProxyPort": "80" 
     },{ 
-        "Name": "🇺🇸tigo pay+ssl 🇨🇴", 
-        "SSHHost": "www.mintic.gov.co", 
+        "Name": "🇨🇴TIGO COLOMBIA 🇨🇴", 
+        "SSHHost": "172.67.136.14", 
+        "SSHPort": "22", 
+        "DropBear": "80", 
+        "SSLPort": "443", 
+        "ProxyPort": "80" 
+    },{ 
+        "Name": "🇨🇴WOM COLOMBIA 🇨🇴", 
+        "SSHHost": "sena.territorio.la", 
         "SSHPort": "22", 
         "DropBear": "80", 
         "SSLPort": "443", 
@@ -78,7 +77,16 @@
 "ProxyPort": "" 
 },
 { 
-      "Name": "🇨🇴Tigo SSL + PAYLOAD 1 🇨🇴", 
+      "Name": "🇨🇴WOM COLOMBIA 🇨🇴", 
+      "SSL": true, 
+      "Direct": false, 
+      "Payload": "sena.territorio.la", 
+      "Payws": "UNLOCK h2://sena.territorio.la HTTP/1.1[crlf]Host: netfreezone.ml[crlf]Upgrade: websocket[crlf][crlf]", 
+      "CustomProxy": true, 
+      "ProxyHost": "sena.territorio.la", 
+      "ProxyPort": "443" 
+     },{ 
+      "Name": "🇨🇴TIGO COLOMBIA 🇨🇴", 
       "SSL": true, 
       "Direct": false, 
       "Payload": "www.mintic.gov.co", 
@@ -88,29 +96,11 @@
       "ProxyPort": "443" 
      },
 { 
-      "Name": "🇺🇸Tigo SSL + PAYLOAD 2 🇨🇴", 
-      "SSL": true, 
-      "Direct": false, 
-      "Payload": "www.mintic.gov.co", 
-      "Payws": "CONNECT wss://[host_port] HTTP/1.1[crlf]Host: usa1.zeusvpn.tk[crlf]Connection: Keep-Alive[crlf]Proxy-Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf][crlf]", 
-      "CustomProxy": true, 
-      "ProxyHost": "www.mintic.gov.co", 
-      "ProxyPort": "443" 
-     },{ 
 "Name": "🇨🇴 claro redes🇨🇴", 
 "SSL": true, 
 "Direct": false,
 "Payws": "", 
 "Payload": "tiendaclaro.com.co", 
-"CustomProxy": false, 
-"ProxyHost": "", 
-"ProxyPort": "" 
-},{ 
-"Name": "🇨🇴 wom sin saldo🇨🇴", 
-"SSL": false, 
-"Direct": true, 
-"Payws": "",
-"Payload": "GET http://www.wom.co/ HTTP/1.1[crlf]Host: www.wom.co[crlf] Access-Control-Allow-Credentials: true, true[lf] Access-Control-Allow-Headers: X-Requested-With,Content-Type, X-Requested-With,Content-Type[lf] Access-Control-Allow-Methods: GET,PUT,OPTIONS,POST,DELETE, GET,PUT,OPTIONS,POST,DELETE[lf] Age: 8, 8[lf] Cache-Control: max-age=86400[lf] public[lf] Connection: keep-alive[lf] Content-Type: text/html; charset=UTF-8[crlf]Content-Length: 9999999999999[crlf]UseDNS: Yes[crlf]Vary: Accept-Encoding[crlf][raw][crlf][crlf][crlf]", 
 "CustomProxy": false, 
 "ProxyHost": "", 
 "ProxyPort": "" 
