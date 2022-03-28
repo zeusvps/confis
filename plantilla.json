@@ -1,5 +1,5 @@
 { 
-    "Version": "1.46", 
+    "Version": "1.47", 
     "Message": "NUEVAS PROMOS ACTUALIZADOS ZEUS 
     AGREGADO METODO PAYLOAD+SSL   activar solo para tigo 
 🇨🇴 TIGO pay+ssL 
@@ -9,8 +9,8 @@
 🇨🇴 virgin tiktok  
 🇨🇴 etb con redes :)", 
     "Servers":[{
-        "Name": "🇨🇴 Medellin vip", 
-        "SSHHost": "netfreezone.ml", 
+        "Name": "🇱🇷 linode 🇱🇷", 
+        "SSHHost": "45.33.3.108", 
         "SSHPort": "22", 
         "DropBear": "80", 
         "SSLPort": "443", 
@@ -81,7 +81,7 @@
       "SSL": true, 
       "Direct": false, 
       "Payload": "sena.territorio.la", 
-      "Payws": "UNLOCK h2://sena.territorio.la HTTP/1.1[crlf]Host: netfreezone.ml[crlf]Upgrade: websocket[crlf][crlf]", 
+      "Payws": "UNLOCK h2://sena.territorio.la HTTP/1.1[crlf]Host: zeusvpn.tk[crlf]Upgrade: websocket[crlf][crlf]", 
       "CustomProxy": true, 
       "ProxyHost": "sena.territorio.la", 
       "ProxyPort": "443" 
