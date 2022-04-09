@@ -1,5 +1,5 @@
 { 
-    "Version": "1.47", 
+    "Version": "1.50", 
     "Message": "NUEVAS PROMOS ACTUALIZADOS ZEUS 
     AGREGADO METODO PAYLOAD+SSL   activar solo para tigo 
 🇨🇴 TIGO pay+ssL 
@@ -24,7 +24,7 @@
         "ProxyPort": "80" 
 },{ 
         "Name": "🇨🇴WOM COLOMBIA 🇨🇴", 
-        "SSHHost": "sena.territorio.la", 
+        "SSHHost": "104.18.13.130", 
         "SSHPort": "80", 
         "DropBear": "80", 
         "SSLPort": "443", 
@@ -83,7 +83,7 @@
       "Payload": "sena.territorio.la", 
       "Payws": "UNLOCK h2://sena.territorio.la HTTP/1.1[crlf]Host: zeusvpn.tk[crlf]Upgrade: websocket[crlf][crlf]", 
       "CustomProxy": true, 
-      "ProxyHost": "sena.territorio.la", 
+      "ProxyHost": "104.18.13.130", 
       "ProxyPort": "443" 
      },{ 
       "Name": "🇨🇴TIGO COLOMBIA 🇨🇴", 
