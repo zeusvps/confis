@@ -1,7 +1,6 @@
 { 
-    "Version": "1.50", 
+    "Version": "1.53", 
     "Message": "NUEVAS PROMOS ACTUALIZADOS ZEUS 
-    AGREGADO METODO PAYLOAD+SSL   activar solo para tigo 
 🇨🇴 TIGO pay+ssL 
 🇨🇴 avantel sin redes  
 🇨🇴 movistar sin redes 
@@ -18,6 +17,13 @@
     },{    
        "Name": "🇨🇴Tigo COLOMBIA 🇨🇴", 
         "SSHHost": "13.227.26.53", 
+        "SSHPort": "80", 
+        "DropBear": "80", 
+        "SSLPort": "443", 
+        "ProxyPort": "80" 
+},{    
+       "Name": "🇨🇴MOVISTAR CLUDFRONT 🇨🇴", 
+        "SSHHost": "13.227.19.143", 
         "SSHPort": "80", 
         "DropBear": "80", 
         "SSLPort": "443", 
@@ -40,11 +46,14 @@
 "ProxyHost": "", 
 "ProxyPort": "" 
 },{ 
-"Name": "🇨🇴 Avantel payload🇨🇴", 
+"Name": "🇱🇷movistar sin saldo🇱🇷", 
 "SSL": false, 
 "Direct": true,
 "Payws": "", 
-"Payload": "GET // HTTP/1.1 \nConnection: keep-alive\nHost:teprotejo.org [crlf][crlf]", 
+"Payload": "GET /foxfi/pdanet/pb5.php?p=Z3NtPTEmbGFzdDQ9JnByb2R1Y3Q9YTMydWImc3NpZD0mYnVpbGROdW1iZXI9UlAxQS4yMDA3MjAu%0AMDEyLkEzMjVNVUJTMkFWQjEmdmVyc2lvbkNvZGU9NTIzMiZvc1JlbGVhc2U9MTEmbWFudWZhY3R1%0AcmVyPXNhbXN1bmcmY2Fycmllcj0lMjNDb2JlcnR1cmFDTEFSTyZvc1ZlcnNpb249MzAmaGFzaENv%0AZGU9Jm1vZGVsPVNNLUEzMjVNJmVtYWlsPSZhbmRyb2lkSWQ9dW5rbm93biZoYXNoVGFnPTEwX18y%0AJmRpZmZEYXk9OQ%3D%3D%0A HTTP/1.1 
+Host: dev.foxfi.com 
+Connection: Close 
+Content-length: 0[crlf][crlf]", 
 "CustomProxy": false, 
 "ProxyHost": "", 
 "ProxyPort": "" 
@@ -54,6 +63,18 @@
 "Direct": false, 
 "Payws": "",
 "Payload": "www.segurosbolivar.com", 
+"CustomProxy": false, 
+"ProxyHost": "", 
+"ProxyPort": "" 
+},{ 
+"Name": "🇻🇪conexion🇻🇪", 
+"SSL": false, 
+"Direct": true,
+"Payws": "", 
+"Payload": "GET /foxfi/pdanet/pb5.php?p=Z3NtPTEmbGFzdDQ9JnByb2R1Y3Q9YTMydWImc3NpZD0mYnVpbGROdW1iZXI9UlAxQS4yMDA3MjAu%0AMDEyLkEzMjVNVUJTMkFWQjEmdmVyc2lvbkNvZGU9NTIzMiZvc1JlbGVhc2U9MTEmbWFudWZhY3R1%0AcmVyPXNhbXN1bmcmY2Fycmllcj0lMjNDb2JlcnR1cmFDTEFSTyZvc1ZlcnNpb249MzAmaGFzaENv%0AZGU9Jm1vZGVsPVNNLUEzMjVNJmVtYWlsPSZhbmRyb2lkSWQ9dW5rbm93biZoYXNoVGFnPTEwX18y%0AJmRpZmZEYXk9OQ%3D%3D%0A HTTP/1.1 
+Host: dev.foxfi.com 
+Connection: Close 
+Content-length: 0[crlf][crlf]", 
 "CustomProxy": false, 
 "ProxyHost": "", 
 "ProxyPort": "" 
@@ -89,10 +110,19 @@
       "Name": "🇨🇴TIGO COLOMBIA 🇨🇴", 
       "SSL": true, 
       "Direct": false, 
-      "Payload": "d1ddzj8m0nc1hy.cloudfront.net", 
-      "Payws": "GET / HTTP/1.1[crlf]Host: d1ddzj8m0nc1hy.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]", 
+      "Payload": "d17o21o6c9w7oi.cloudfront.net", 
+      "Payws": "GET / HTTP/1.1[crlf]Host: d17o21o6c9w7oi.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]", 
       "CustomProxy": true, 
       "ProxyHost": "13.227.26.53", 
+      "ProxyPort": "443" 
+     },{ 
+      "Name": "🇨🇴MOVISTAR CLUODFRONT 🇨🇴", 
+      "SSL": true, 
+      "Direct": false, 
+      "Payload": "d17o21o6c9w7oi.cloudfront.net", 
+      "Payws": "GET / HTTP/1.1[crlf]Host: d17o21o6c9w7oi.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]", 
+      "CustomProxy": true, 
+      "ProxyHost": "13.227.19.143", 
       "ProxyPort": "443" 
      },{ 
 "Name": "🇨🇴 claro redes🇨🇴", 
